@@ -1,0 +1,44 @@
+/* Soluzione qui */
+
+@media screen and (min-width: 768px){
+    #topbar{
+        justify-content: flex-start;
+    }
+
+    main{
+        padding: 30px;
+    }
+
+    h2{
+        display: flex;
+        gap: 10px;
+        font-size: 2rem;
+    }
+
+    .recipe-origin{
+        display: flex;
+    }
+
+    .quick-notes ul{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+        
+    }
+
+    .fab{
+        padding: 2px;
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
+    .ads{
+        display: flex;
+    }
+
+    .clearfix img{
+        float: left;
+        margin-right: 10px;
+    }
+
+}
